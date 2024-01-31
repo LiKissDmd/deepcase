@@ -38,8 +38,8 @@ import * as rjsfCore from '@rjsf/core';
 import * as rjsfChakra from '@rjsf/chakra-ui';
 import * as rjsfValidator from '@rjsf/validator-ajv8';
 // @ts-ignore
-import * as aframeReact from '@belivvr/aframe-react';
-import { Entity, Scene } from 'aframe-react';
+// import * as aframeReact from '@belivvr/aframe-react';
+// import { Entity, Scene } from 'aframe-react';
 import { CatchErrors } from './react-errors';
 import _ from 'lodash';
 import md5 from "md5";
@@ -268,8 +268,8 @@ r.list = {
   '@rjsf/core': rjsfCore,
   '@rjsf/chakra-ui': rjsfChakra,
   '@rjsf/validator-ajv8': rjsfValidator,
-  '@belivvr/aframe-react': aframeReact,
-  'aframe-react': { Entity, Scene },
+  // '@belivvr/aframe-react': aframeReact,
+  // 'aframe-react': { Entity, Scene },
   'md5': md5,
   'uuid': uuidv4,
   'd3-force-3d': d3d,
